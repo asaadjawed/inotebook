@@ -1,0 +1,21 @@
+1) When I create a react-app with: npx create-react-app its showing a dependency issue because React19 are not compatible with react testing library so I run:
+
+npm config set legacy-peer-deps true
+
+Then run:
+
+npx create-react-app my-app
+
+Explanation:
+The --legacy-peer-deps flag was introduced with v7 as a way to bypass peerDependency auto-installation; it tells NPM to ignore peer dependencies and proceed with the installation anyway. This is how things used to be with NPM v4 through v6.
+
+
+2) When my project was initially created and when I run npm start it gave me an error of depency ajv:
+
+I also facing the same problem.
+I can currently use:
+npm install ajv --save-dev
+as a workaround.
+
+3) Moongoose is a top layer, that help to connect MongoDB with Nodejs:
+npm i mongoose
