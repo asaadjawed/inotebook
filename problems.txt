@@ -18,4 +18,7 @@ npm install ajv --save-dev
 as a workaround.
 
 3) Moongoose is a top layer, that help to connect MongoDB with Nodejs:
-npm i mongoose
+npm i mongoose.
+
+4) Database ke andr collections hoti hen or us collections ke andr documents hotey hen.
+5) We use Mongoose, because it is a ODM (Object Data Modeling) and we use for Mongodb data use in Nodejs to make a structure, validated data.
